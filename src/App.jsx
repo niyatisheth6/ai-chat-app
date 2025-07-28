@@ -133,7 +133,7 @@ function App() {
                   : "Waiting for AI to be ready..."
               }
               disabled={!isAiReady || isLoading}
-              className="flex-1 px-4 py-3 bg-gra-700/80 border border-gray-600 rounded-2xl text-white placeholder-gray-600 focus:outline-none focus:ring-2 focus:shadow-xl focus:shadow-sky-400/80 focus:ring-sky-500 transition duration-300 disabled:opacity-50 disabled:cursor-not-allowed"
+              className="flex-1 px-4 py-3 bg-gray-700/80 border border-gray-600 rounded-2xl text-white placeholder-gray-600 focus:outline-none focus:ring-2 focus:shadow-xl focus:shadow-sky-400/80 focus:ring-sky-500 transition duration-300 disabled:opacity-50 disabled:cursor-not-allowed"
             />
             <button
               onClick={sendMessage}
